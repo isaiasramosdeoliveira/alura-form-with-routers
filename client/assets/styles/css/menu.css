@@ -1,0 +1,72 @@
+.menu {
+  width: 80px;
+  border-radius: 10px 0px 0px 10px;
+  justify-content: space-between;
+}
+.menu .links,
+.menu .mode,
+.menu .soon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu .soon {
+  background-color: #FBFBFB;
+  padding: 10px;
+  border-radius: 10px;
+}
+.menu .soon i {
+  font-size: 30px;
+  color: #131517;
+}
+.menu .mode {
+  gap: 15px;
+}
+.menu .mode .mode__add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  background-color: #2A86FF;
+}
+.menu .mode .mode__add i {
+  color: #FBFBFB;
+}
+.menu .mode .mode__dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: #272A30;
+  box-shadow: 1px 1px 5px #131517;
+}
+.menu .mode .mode__dark i {
+  color: #FBFBFB;
+}
+.menu .menu__nav .links {
+  cursor: pointer;
+}
+.menu .menu__nav .links .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.menu .menu__nav .links .link:hover {
+  background-color: #272A30;
+}
+.menu .menu__nav .links .link:hover i {
+  color: #FBFBFB;
+}
+
+/*# sourceMappingURL=menu.css.map */

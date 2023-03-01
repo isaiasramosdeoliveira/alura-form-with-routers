@@ -1,0 +1,74 @@
+@import "paletas";
+
+.menu {
+    width: 80px;
+    border-radius: 10px 0px 0px 10px;
+    justify-content: space-between;
+    .links,
+    .mode,
+    .soon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .soon {
+        background-color: $white;
+        padding: 10px;
+        border-radius: 10px;
+        i {
+            font-size: 30px;
+            color: $corPrimary-1;
+        }
+    }
+    .mode {
+        gap: 15px;
+        .mode__add {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            border-radius: 100%;
+            width: 35px;
+            height: 35px;
+            background-color: $select;
+            i {
+                color: $white;
+            }
+        }
+        .mode__dark {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            border-radius: 100%;
+            width: 30px;
+            height: 30px;
+            background-color: $corPrimary-3;
+            box-shadow: 1px 1px 5px $corPrimary-1;
+            i {
+                color: $white;
+            }
+        }
+    }
+    .menu__nav {
+        .links {
+            cursor: pointer;
+            .link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                padding: 10px;
+                border-radius: 10px;
+                &:hover {
+                    background-color: $corPrimary-3;
+                    i {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

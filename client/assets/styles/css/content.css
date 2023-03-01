@@ -1,0 +1,269 @@
+.content {
+  border-radius: 0px 10px 10px 0px;
+  padding: 0;
+  overflow-y: auto;
+}
+.content::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+.content::-webkit-scrollbar-thumb {
+  background-color: #616265;
+  border-radius: 10px;
+}
+.content header {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr auto;
+  border-bottom: 1px solid #272A30;
+  padding: 4% 2%;
+  width: 100%;
+}
+.content header img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.content header .data {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.content header .data .data__title {
+  color: #FBFBFB;
+}
+.content header .data .data__link {
+  grid-column: 2/2;
+}
+.content header .data .data__values {
+  align-self: flex-start;
+  background-color: #AFE5B1;
+  padding: 2% 4%;
+  margin-top: 5px;
+  border-radius: 10px;
+  color: #131517;
+  font-weight: bold;
+}
+.content header .selects {
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+.content header .selects .selects__filter:nth-child(1) i {
+  color: #7C8FE6;
+}
+.content .container {
+  padding: 4% 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
+}
+.content .container .camp__seach {
+  padding: 4% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #1A1C1E;
+}
+.content .container .camp__seach input {
+  background-color: #272A30;
+  width: 90%;
+  padding: 2%;
+  border-radius: 5px;
+}
+.content .container .camp__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content .container .camp__form .btns {
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #131517;
+  width: 88%;
+  gap: 10px;
+}
+.content .container .camp__form .btns .btn {
+  cursor: pointer;
+  padding: 2% 4%;
+  border-radius: 5px;
+  flex-grow: 1;
+  background-color: #272A30;
+  color: #FBFBFB;
+}
+.content .container .camp__form .notes {
+  padding: 4%;
+}
+.content .container .camp__form .notes textarea {
+  border: none;
+  padding: 10px;
+  width: 350px;
+  max-height: 200px;
+  background-color: #272A30;
+  border-radius: 10px;
+}
+.content .container .camp__messages {
+  padding: 2% 4%;
+}
+.content .container .camp__messages .merket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .container .camp__messages .merket .title__messages {
+  color: #FBFBFB;
+}
+.content .container .camp__messages .merket .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.content .container .camp__messages .merket .btns .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: 1px solid #272A30;
+}
+.content .container .camp__messages .merket .btns .btn i {
+  font-size: 15px;
+}
+.content .container .camp__messages .merket .btns .btn:nth-child(2) {
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #FEBF90;
+  color: #131517;
+}
+.content .container .camp__messages .merket .btns .btn:nth-child(1) {
+  border-radius: 100%;
+}
+.content .container .camp__messages .messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6%;
+  gap: 20px;
+  width: 100%;
+}
+.content .container .camp__messages .messages .message {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.content .container .camp__messages .messages .message .message__img {
+  display: inline;
+  border-radius: 5px;
+  padding: 4px;
+  width: 50px;
+  height: 50px;
+}
+.content .container .camp__messages .messages .message .message__descreption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 2% 4%;
+}
+.content .container .camp__messages .messages .message .message__descreption h2 {
+  font-size: 18px;
+  color: #FBFBFB;
+}
+.content .container .camp__messages .messages .message .message__status {
+  margin-left: auto;
+  padding: 5px;
+  border-radius: 100%;
+  background-color: #272A30;
+  width: 10px;
+  height: 10px;
+}
+.content .container .camp__messages .messages .message:nth-child(1) .message__img {
+  background-color: #AAD6EE;
+}
+.content .container .camp__messages .messages .message:nth-child(2) .message__img {
+  background-color: #AFE5B1;
+}
+.content .container .camp__messages .messages .message:nth-child(3) .message__img {
+  background-color: #FEBF90;
+}
+.content .container .merket,
+.content .container .status,
+.content .container .contacts {
+  padding: 2% 4%;
+}
+.content .container .merket h2,
+.content .container .status h2,
+.content .container .contacts h2 {
+  color: #FBFBFB;
+}
+.content .container .status .status__dices .dice {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #272A30;
+  padding: 4% 0%;
+}
+.content .container .status .status__dices .dice p {
+  font-weight: 600;
+}
+.content .container .status .status__dices .dice .names {
+  display: flex;
+  gap: 10px;
+}
+.content .container .status .status__dices .dice .names i {
+  text-align: center;
+  width: 30px;
+}
+.content .container .status .status__dices .dice .value .value__describe {
+  color: #FBFBFB;
+}
+.content .container .status .status__dices .dice:nth-child(3) .value {
+  padding: 1% 2%;
+  background-color: #AFE5B1;
+  border-radius: 5px;
+}
+.content .container .status .status__dices .dice:nth-child(3) .value .value__describe {
+  color: #131517;
+}
+.content .container .contacts {
+  padding: 2% 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.content .container .contacts .btn {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 2.5% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-color: #272A30;
+  gap: 10px;
+}
+.content .container .contacts .btn:hover {
+  transition: all;
+  transition-duration: 200ms;
+  background-color: #2A86FF;
+}
+.content .container .contacts .btn:hover i, .content .container .contacts .btn:hover p {
+  color: #FBFBFB;
+}
+
+/*# sourceMappingURL=content.css.map */
