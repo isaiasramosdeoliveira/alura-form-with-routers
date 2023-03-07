@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message</title>
+    <link rel="stylesheet" href="../styles/css/global.css" />
+    <link
+      rel="stylesheet"
+      href="../styles/css/fontawesome-free-6.3.0-web/fontawesome-free-6.3.0-web/css/all.css"
+    />
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <aside class="menu">
+        <a href="#" class="soon"><i class="fa-solid fa-compact-disc"></i></a>
+        <nav class="menu__nav">
+          <ul class="links">
+            <li class="link">
+              <a href="">
+                <i class="fa-solid fa-house"></i>
+              </a>
+            </li>
+            <li class="link">
+              <a href="">
+                <i class="fa-solid fa-user"></i>
+              </a>
+            </li>
+            <li class="link">
+              <a href="">
+                <i class="fa-solid fa-file-lines"></i>
+              </a>
+            </li>
+            <li class="link">
+              <a href="">
+                <i class="fa-solid fa-chart-line"></i>
+              </a>
+            </li>
+            <li class="link">
+              <a href="">
+                <i class="fa-solid fa-calendar-check"></i>
+              </a>
+            </li>
+            <li class="link">
+              <a href="">
+                <i class="fa-solid fa-percent"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mode">
+          <a class="mode__add" href="">
+            <i class="fa-solid fa-plus"></i>
+          </a>
+          <a class="mode__dark" href="">
+            <i class="fa-solid fa-moon"></i>
+          </a>
+        </div>
+      </aside>
+      <section class="content">
+        <header>
+          <div class="data">
+            <img src="../img/profile-pic.png" alt="foto do perfil" />
+            <div>
+              <h1 class="data__title">Isaias</h1>
+              <p class="data__link">@isaias.r.o</p>
+            </div>
+            <span class="data__values">$24.99</span>
+          </div>
+          <div class="selects">
+            <a class="selects__filter" href="">
+              <i class="fa-solid fa-cube"></i>
+            </a>
+            <a class="selects__filter" href="">
+              <i class="fa-solid fa-ellipsis"></i>
+            </a>
+          </div>
+        </header>
+        <section class="container">
+          <div class="camp__seach">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="seach" id="seach" placeholder="Type keyword or command"/>
+          </div>
+          <div class="camp__form">
+            <div class="btns">
+              <button class="btn">Important</button>
+              <button class="btn">Regular</button>
+              <button class="btn">Light</button>
+            </div>
+            <div class="notes" for="message">
+              <textarea
+                name="message"
+                id=""
+                rows="5"
+                placeholder="Write a private note"
+              ></textarea>
+            </div>
+          </div>
+          <div class="camp__messages">
+            <div class="merket">
+              <h2 class="title__messages">Activity log</h2>
+              <div class="btns">
+                <button class="btn">
+                  <i class="fa-solid fa-sort"></i>
+                </button>
+                <button class="btn">8</button>
+              </div>
+            </div>
+            <ul class="messages">
+              <li class="message">
+                <span class="message__img"></span>
+                <div class="message__descreption">
+                  <p class="message__describe">Liked and commet on</p>
+                  <h2 class="message__title">Fundament of color in UI</h2>
+                </div>
+                <span class="message__status"></span>
+              </li>
+              <li class="message">
+                <span class="message__img"></span>
+                <div class="message__descreption">
+                  <p class="message__describe">Liked and commet on</p>
+                  <h2 class="message__title">Guide to Redshift 3D</h2>
+                </div>
+                <span class="message__status"></span>
+              </li>
+              <li class="message">
+                <span class="message__img"></span>
+                <div class="message__descreption">
+                  <p class="message__describe">Liked and commet on</p>
+                  <h2 class="message__title">Top 10 great UI designers</h2>
+                </div>
+                <span class="message__status"></span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="container">
+          <div class="merket">
+            <h2 class="title__messages">Payment history</h2>
+          </div>
+          <div class="status">
+            <ul class="status__dices">
+              <li class="dice dice__date">
+                <div class="names">
+                  <i class="fa-solid fa-calendar"></i>
+                  <p>Change date</p>
+                </div>
+                <div class="value">
+                  <p class="value__describe">2024</p>
+                </div>
+              </li>
+              <li class="dice dice__values">
+                <div class="names">
+                  <i class="fa-solid fa-credit-card"></i>
+                  <p class="value__describe">AMT</p>
+                </div>
+                <div class="value">
+                  <p class="value__describe">$24.99</p>
+                </div>
+              </li>
+              <li class="dice dice__status">
+                <div class="names">
+                  <i class="fa-solid fa-circle-check"></i>
+                  <p>Status</p>
+                </div>
+                <div class="value">
+                  <p class="value__describe">Paid</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts">
+            <button class="btn">
+              <i class="fa-solid fa-paper-plane"></i>
+              <p>Message</p>
+            </button>
+            <button class="btn">
+              <i class="fa-solid fa-plus"></i>
+              <p>Invite</p>
+            </button>
+            <button class="btn">
+              <i class="fa-solid fa-flag"></i>
+              <p>block</p>
+            </button>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
