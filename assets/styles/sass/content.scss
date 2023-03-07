@@ -202,6 +202,18 @@
                         width: 10px;
                         height: 10px;
                     }
+                    .regular{
+                        background-color: rgb(214, 190, 70);
+                         box-shadow: 0px 0px 10px  rgb(214, 190, 70);
+                    }
+                    .nice{
+                        background-color: $select;
+                        box-shadow: 0px 0px 10px  $select;
+                    }
+                    .important{
+                        background-color: rgb(203, 58, 58);
+                        box-shadow: 0px 0px 10px  rgb(203, 58, 58);
+                    }
                 }
                 .message:nth-child(1) {
                     .message__img {

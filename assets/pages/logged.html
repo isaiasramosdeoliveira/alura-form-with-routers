@@ -81,13 +81,13 @@
         <section class="container">
           <div class="camp__seach">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" name="seach" id="seach" placeholder="Type keyword or command"/>
+            <input type="text" name="seach" id="seach" placeholder="Type keyword or command" data-seach/>
           </div>
           <div class="camp__form">
             <div class="btns">
-              <button class="btn">Important</button>
-              <button class="btn">Regular</button>
-              <button class="btn">Light</button>
+              <button class="btn" data-button="important">Important</button>
+              <button class="btn" data-button="regular">Regular</button>
+              <button class="btn" data-button="nice">Nice</button>
             </div>
             <div class="notes" for="message">
               <textarea
@@ -108,31 +108,7 @@
                 <button class="btn">8</button>
               </div>
             </div>
-            <ul class="messages">
-              <li class="message">
-                <span class="message__img"></span>
-                <div class="message__descreption">
-                  <p class="message__describe">Liked and commet on</p>
-                  <h2 class="message__title">Fundament of color in UI</h2>
-                </div>
-                <span class="message__status"></span>
-              </li>
-              <li class="message">
-                <span class="message__img"></span>
-                <div class="message__descreption">
-                  <p class="message__describe">Liked and commet on</p>
-                  <h2 class="message__title">Guide to Redshift 3D</h2>
-                </div>
-                <span class="message__status"></span>
-              </li>
-              <li class="message">
-                <span class="message__img"></span>
-                <div class="message__descreption">
-                  <p class="message__describe">Liked and commet on</p>
-                  <h2 class="message__title">Top 10 great UI designers</h2>
-                </div>
-                <span class="message__status"></span>
-              </li>
+            <ul class="messages" data-list-message>
             </ul>
           </div>
         </section>
@@ -188,5 +164,8 @@
         </section>
       </section>
     </main>
+    <script src="../js/controllers/AddMessages.js" type="module"></script>
+    <script src="../js/models/User.js" type="module1"></script>
+    <script src="../js/controllers/filtersMessages.js" type="module"></script>
   </body>
 </html>
