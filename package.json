@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "styles": "Sass --watch ./client/assets/styles/sass:./client/assets/styles/css",
-    "start": "json-server --watch ./server/database/db.json"
+    "styles": "Sass --watch ./assets/styles/sass:./assets/styles/css",
+    "start": "json-server --watch ./database/db.json"
   },
   "keywords": [],
   "author": "",
